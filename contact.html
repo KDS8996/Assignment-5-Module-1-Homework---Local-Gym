@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e5b7fa50ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sign-in.html">Sign-in</a></li>
+            <li><a href="sign-out.html">Sign-out</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <form>
+            <div class="row">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="number" required>
+                    <label for="number"><i class="fa-solid fa-phone"></i> Phone No.</label>
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email"><i class="fa-solid fa-envelope"></i> Email Id</label>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="8" required></textarea>
+                <label for="message"><i class="fa-regular fa-comments"></i> Your Message</label>
+            </div>
+            <button type="submit"><i class="fa-regular fa-paper-plane"></i> SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>
